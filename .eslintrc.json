@@ -1,4 +1,6 @@
 {
   "extends": "next/core-web-vitals",
-  "require-jsdoc": "off"
+  "rules": {
+    "require-jsdoc": "off"
+  }
 }
