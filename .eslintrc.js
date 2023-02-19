@@ -20,7 +20,11 @@ module.exports = {
   },
   plugins: ["react", "@typescript-eslint"],
   rules: {
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-no-undef": "off",
+    "react/display-name": "off",
     "require-jsdoc": "off",
+    "@next/next/no-img-element": "off",
   },
   settings: {
     react: {
